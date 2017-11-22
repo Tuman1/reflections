@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+	FC command gives me more efficient way to analyse my code:
+	In case of typo I can compare two files, distinguish code blocks
+	with high risk of typo and concentrate on this blocks. 
+	Also working in CMD is a good practise for junior developer.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+	It gives more ways to analyse the best code organization and structure. 
+	It gives my oppotunity to check analyse my mistakes.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Some times I don't need to save code version because it confuses.
+	In some particular situations more efficient to save history only when I need it,
+	and not on each step. Only when saves have logical meaning.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	I think it depends on tasks which each system solves. For big code projects that have
+	a lot of files it's important to save them all, not just one or few, since they interrelated. 		
+	When in the same time for office work usually enough to save one current file.
+
+How can you use the commands git log and git diff to view the history of files?
+	With git log  I can see all commits were added to the project.
+	With git diff I can see difference between two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	If any changes will break my programm I'll find last working commit,
+	then commit with the bug, find difference between them  and fix it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I want use it for my future projects
