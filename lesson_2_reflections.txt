@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+	When I initialize a repository, I create special folders and files 
+	that help me to save all history of changes. History of changes	helps me
+	to more precisely understand how my project grew up, helps me to find my
+	bugs more faster, and track my changes. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	
+	Staging Area is stage of manipulating with files in WD (working dir).
+	It helps to choose either file you want or not to see in your history.
+	It works like a filter stage.
