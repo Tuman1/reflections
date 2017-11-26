@@ -9,3 +9,32 @@ How is the staging area different from the working directory and the repository?
 	Staging Area is stage of manipulating with files in WD (working dir).
 	It helps to choose either file you want or not to see in your history.
 	It works like a filter stage.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Some times logical change touche only few files from folder. If I would commit 
+	all files from project it would call confusion, since not all files are need 
+	for commit. No logic if for example I change style of site and commit all project.
+	It's better to commit only changed files. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	It's helpful when I experiment with my project, add new features but I don't want to risk, 
+	or I need working example. I can create new branch and work with it.
+	Branches create separate history that is not influence by other histories.
+
+How do the diagrams help you visualize the branch structure?
+	
+	Diagrams show in graphical form relationships of branches. Also they help 
+	to find place of bifurcation.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The result of merging is a branch with all features from all branches.
+	We represent it in diagram because it helps to understand which branch and commits were earlier
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	
+	Automatic merging takes less time, but sometimes git just can not solve confilcts between versions.
+	Merges manually is exhausting, but it helps to solve all conflicts and it gives some garanty that 
+	code will work. 
